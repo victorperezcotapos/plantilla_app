@@ -27,3 +27,8 @@ Rails.application.config.assets.paths << Rails.root.join('vendor','img')
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 
 Rails.application.config.assets.precompile += %w( *.jpg, *.png )
+Rails.application.config.assets.precompile += %w( screenshots/*.png )
+Rails.application.config.assets.precompile += %w( screenshots/*.jpg)
+Rails.application.config.assets.precompile += %w( modal/*.jpg )
+Rails.application.config.assets.precompile += %w( team/*.jpg )
+Rails.application.config.assets.precompile += %w( testimonials/*.jpg )
