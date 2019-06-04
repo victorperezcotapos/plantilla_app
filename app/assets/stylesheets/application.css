@@ -11,15 +11,15 @@
  * It is generally better to create a new file per style scope.
  *
  *
- *= require_bootstrap.min
- *= require_font-awesome.min
- *= require_style1
- *= require_animate
- *= require_magnific-popup
- *= require_ultm
- *= require_form-elements
- *= require_style
- *= require_media-queries
+ *= require bootstrap.min
+ *= require font-awesome.min
+ *= require style1
+ *= require animate
+ *= require magnific-popup
+ *= require ultm
+ *= require form-elements
+ *= require style
+ *= require media-queries
  *= require_tree .
  *= require_self
  */
